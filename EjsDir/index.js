@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const path = require("path");
+const path = require("path"); //requiring the path module
 
 const port = 8080;
 
