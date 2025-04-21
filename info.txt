@@ -5,5 +5,4 @@ In this module we will learmn about
 
 :Interpolation Syntax
 Interpolation refers to embedding expressions into marked uptext.
-
 ie. Normally in our EJS template inside it we can embedd our whole JS code logic.
