@@ -16,8 +16,8 @@ app.get("/", (req,res)=>{
 });
 
 app.get("/rolldice", (req,res)=>{
-    let diceVal = Math.floor(Math.random() * 6) + 1;
-    res.render("rolldice.ejs", {num: diceVal});
+    let diceVal = Math.floor(Math.random() * 6) + 1; //creating data in the backend suppose and assigning it in a variable
+    res.render("rolldice.ejs", {num: diceVal}); //accessing it through a key value pair
 });
 
 app.listen(port, ()=>{
