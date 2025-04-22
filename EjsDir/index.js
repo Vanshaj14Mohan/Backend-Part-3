@@ -15,6 +15,11 @@ app.get("/", (req,res)=>{
     res.render("home.ejs"); //it can even be home, as express will directly look for home.ejs in views folder.
 });
 
+app.get("/rolldice", (req,res)=>{
+    let diceVal = Math.floor(Math.random() * 6) + 1;
+    res.render("rolldice.ejs", {num: diceVal});
+});
+
 app.listen(port, ()=>{
     console.log(`Server is running on port ${port}`);
 });
