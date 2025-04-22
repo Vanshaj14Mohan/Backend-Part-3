@@ -15,9 +15,10 @@ app.get("/", (req,res)=>{
     res.render("home.ejs"); //it can even be home, as express will directly look for home.ejs in views folder.
 });
 
+//Check in rolldice.ejs in views folder
 app.get("/rolldice", (req,res)=>{
     let diceVal = Math.floor(Math.random() * 6) + 1; //creating data in the backend suppose and assigning it in a variable
-    res.render("rolldice.ejs", {num: diceVal}); //accessing it through a key value pair
+    res.render("rolldice.ejs", {diceVal}); //accessing it through a key value pair but generally we use single value
 });
 
 app.listen(port, ()=>{
