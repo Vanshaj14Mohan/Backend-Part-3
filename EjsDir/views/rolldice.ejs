@@ -8,5 +8,14 @@
 <body>
     <!-- <h1>Dice gave value: <%= Math.floor(Math.random() * 6) + 1%></h1>  Easy way to display a random dice roll -->
     <h1>Dice gave value: <%= diceVal %></h1> 
+    <!-- Adding Conditional Statements  -->
+    <% if(diceVal == 6) { %>
+    <h2>Roll Dice again..</h2>
+    <% } %>
+    %>
 </body>
 </html>
+
+if(diceVal == 6){
+    <h2>Roll Dice again..</h2>
+}
