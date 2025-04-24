@@ -4,7 +4,7 @@ const path = require("path"); //requiring the path module
 
 const port = 8080;
 
-//Now how to use Ejs
+//Now how to use Ejs now
 app.set("view engine", "ejs"); //view => templates.
 //ejs is also a package but by default it is included in express internally, so we don't need to require it.
 //Through ejs we don't send responses, we render them. render means to send files, and we send an ejs file that not a normal file.
