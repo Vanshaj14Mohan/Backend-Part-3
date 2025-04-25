@@ -3,6 +3,6 @@ In this module we will learmn about:
 :Using EJS
 :Views Directory
 
-:Interpolation Syntax
+Interpolation Syntax:
 Interpolation refers to embedding expressions into marked uptext.
 ie. Normally in our EJS template inside it we can embedd our whole JS code logic.
