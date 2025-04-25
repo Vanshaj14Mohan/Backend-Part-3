@@ -1,4 +1,4 @@
-In this module we will learmn about
+In this module we will learmn about:
 :Templating
 :Using EJS
 :Views Directory
