@@ -7,7 +7,7 @@ let port = 8080;
 const path = require("path");
 
 app.use(express.static("public")); //including CSS JS type of files, ie-> Static Files
-//by default all our static files takes express from public folder. So now create a public folder. 
+//by default all our static files takes express from public folder. So now create a public folder named public.
 
 const instaData = require("./data.json"); //requring data.json file, instaData -> JavaScript Object here.
 
